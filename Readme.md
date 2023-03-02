@@ -8,7 +8,7 @@ Free Youtube Audio/Video downloader.
 
 ## Requirements
 - You must have installed Python 3.7+
-- You'll need to install Flask, Pytube. ()
+- You'll need to install Flask, Pytube. (Which will be covered in usage section)
 
 [Install Python](https://www.python.org/downloads/)
 ## Usage
@@ -16,7 +16,7 @@ To use this tool locally on your machine
 
 1. Clone this repository
 ```git
-git clone 
+git clone https://github.com/Shubhajit07/yt-downloader-flask.git
 ```
 
 2. Navigate to the work directory
