@@ -1,7 +1,8 @@
+.gitignore
 .space
 .spaceignore
 __pycache__
 env
+Spacefile
 Discovery.md
 icon.png
-Spacefile
