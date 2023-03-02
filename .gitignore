@@ -1,0 +1,7 @@
+.space
+.spaceignore
+__pycache__
+env
+Discovery.md
+icon.png
+Spacefile
