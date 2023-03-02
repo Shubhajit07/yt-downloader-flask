@@ -25,13 +25,3 @@ def yt(link:str)->dict:
         "audios":youtude.streams.filter(type="audio")
         }
     return youtubedict
-
-# ytdict=yt("https://youtu.be/SXiSVQZLje8")
-# for i in ytdict['videos']:
-#     print(i.resolution)
-# vids = ytdict["videos"]
-# bitrates = ["144p","240p","360p","480p","720p","1080p","1440p","2160p"]
-# for r in bitrates:
-#     s=vids.get_by_resolution(r)
-#     if s is not None:
-#         print(s.url)
