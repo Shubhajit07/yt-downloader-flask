@@ -20,6 +20,9 @@ git clone https://github.com/Shubhajit07/yt-downloader-flask.git
 ```
 
 2. Navigate to the work directory
+```shell
+cd yt-downloader-flask
+```
 
 3. Install required libraries
 ```shell
@@ -38,19 +41,24 @@ python3 main.py
 git clone https://github.com/Shubhajit07/yt-downloader-flask.git
 ```
 
-2. Make the run.sh file executable
+2.  Navigate to the work directory
+```shell
+cd yt-downloader-flask
+```
+
+3. Make the run.sh file executable
 ```shell
 chmod 777 run.sh
 ```
 
-3. Execute the run.sh file
+4. Execute the run.sh file
 ```shell
 ./run.sh
 ```
 
-4. Single line command, just copy and paste this on your terminal. It'll handle the rest
+5. Single line command, just copy and paste this on your terminal. It'll handle the rest
 ```shell
-git clone https://github.com/Shubhajit07/yt-downloader-flask.git; chmod 777 run.sh; ./run.sh
+git clone https://github.com/Shubhajit07/yt-downloader-flask.git; cd yt-downloader-flask; chmod 777 run.sh; ./run.sh
 ```
 ## Use this on Deta.space
 You don't have to do anything, just [Install this in deta.space](https://deta.space/discovery/@shubhajit07/yt_downloader)
