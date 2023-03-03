@@ -32,6 +32,26 @@ python3 main.py
 ```
 5. Congratulations you have successfully launced the web server on [localhost:8080](http://localhost:8080) 🎉🥳
 
+## Another (Easiest Way)
+1. Clone this repository
+```git
+git clone https://github.com/Shubhajit07/yt-downloader-flask.git
+```
+
+2. Make the run.sh file executable
+```shell
+chmod 777 run.sh
+```
+
+3. Execute the run.sh file
+```shell
+./run.sh
+```
+
+4. Single line command, just copy and paste this on your terminal. It'll handle the rest
+```shell
+git clone https://github.com/Shubhajit07/yt-downloader-flask.git; chmod 777 run.sh; ./run.sh
+```
 ## Use this on Deta.space
 You don't have to do anything, just [Install this in deta.space](https://deta.space/discovery/@shubhajit07/yt_downloader)
 
