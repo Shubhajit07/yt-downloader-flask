@@ -1,13 +1,13 @@
 try:
     from flask import Flask, render_template, request
 except:
-    print("Flask is required but it's not installed\nInstall this by executing: pip install flask")
-    exit()
+    print("Flask is required but it's not installed\nInstall it by executing:\npip install flask")
+    exit(1)
 try:
     from ytdl import yt
 except:
-    print("Pytube is required but it's not installed\nInstall this by executing: pip install pytube")
-    exit()
+    print("Pytube is required but it's not installed\nInstall it by executing:\npip install pytube")
+    exit(1)
 
 app = Flask(__name__)
 
