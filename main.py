@@ -1,5 +1,14 @@
-from flask import Flask, render_template, request
-from ytdl import yt
+try:
+    from flask import Flask, render_template, request
+except:
+    print("Flask is required but it's not installed\nInstall this by executing: pip install flask")
+    exit()
+try:
+    from ytdl import yt
+except:
+    print("Pytube is required but it's not installed\nInstall this by executing: pip install pytube")
+    exit()
+
 app = Flask(__name__)
 
 @app.route("/",methods=["GET"])
